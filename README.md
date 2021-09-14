@@ -1,17 +1,17 @@
 # Implemented Controller
 
 ### GenerateMotorCommands() ### 
- using following equation, 
+ Individual motor thrust commands can be calculate the using following 
 
 	 [1   1   1  -1   [f1    [collectiveThrustCmd
 	  1  -1   1   1    f2     momentCmd.x / armLength
 	  1   1  -1   1  * f3  =  momentCmd.y / armLength
-	  1  -1  -1  -1]   f4     momentCmd.z / kappa]  
+	  1  -1  -1  -1]   f4     momentCmd.z / k]  
 
 ### BodyRateControl() ### 
 
 ### YawContro() ###
-𝑟𝑐=𝑘𝑝(𝜓𝑡−𝜓𝑎)
+ A P controller is used, 𝑟𝑐=𝑘𝑝(𝜓𝑡−𝜓𝑎)
 
 
 # The C++ Project Readme #
