@@ -1,7 +1,7 @@
 # Implemented Controller
 
 ### GenerateMotorCommands() ### 
- Individual motor thrust commands can be calculate the using following 
+ Individual motor thrust commands can be calculate the using following eq
 
 	 [1   1   1  -1   [f1    [collectiveThrustCmd
 	  1  -1   1   1    f2     momentCmd.x / armLength
@@ -10,10 +10,20 @@
 
 ### BodyRateControl() ### 
 A P controller is used 
+=> l * 𝑘𝑝 * 𝑝_error
+ (※ l =  mass moment of inertia / second moment of inertia)
  
 ### RollPitchControl ###
 
-\begin{pmatrix} p_c \\ q_c \\ \end{pmatrix}  = \frac{1}{R_{33}}\begin{pmatrix} R_{21} & -R_{11} \\ R_{22} & -R_{12} \end{pmatrix} \times \begin{pmatrix} \dot{b}^x_c \\ \dot{b}^y_c  \end{pmatrix} 
+P controller.
+
+   𝑏˙𝑥𝑐=𝑘𝑝(𝑏𝑥𝑐−𝑏𝑥𝑎)
+   𝑏˙𝑦𝑐=𝑘𝑝(𝑏𝑦𝑐−𝑏𝑦𝑎)
+   𝑏𝑥𝑎=𝑅13  and  𝑏𝑦𝑎=𝑅23 
+   
+   [p
+
+
 
 ### YawContro() ###
  A P controller is used 
