@@ -9,9 +9,15 @@
 	  1  -1  -1  -1]   f4     momentCmd.z / k]  
 
 ### BodyRateControl() ### 
+A P controller is used 
+ 
+### RollPitchControl ###
+
+\begin{pmatrix} p_c \\ q_c \\ \end{pmatrix}  = \frac{1}{R_{33}}\begin{pmatrix} R_{21} & -R_{11} \\ R_{22} & -R_{12} \end{pmatrix} \times \begin{pmatrix} \dot{b}^x_c \\ \dot{b}^y_c  \end{pmatrix} 
 
 ### YawContro() ###
- A P controller is used, 𝑟𝑐=𝑘𝑝(𝜓𝑡−𝜓𝑎)
+ A P controller is used 
+ => 𝑟𝑐=𝑘𝑝(𝜓𝑡−𝜓𝑎)
 
 
 # The C++ Project Readme #
