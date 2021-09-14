@@ -10,18 +10,13 @@
 
 ### BodyRateControl() ### 
 A P controller is used  
-=> l * 𝑘𝑝 * 𝑝_error  
- (※ l =  mass moment of inertia / second moment of inertia)
+=>  𝑘𝑝 * 𝑝_error  
  
 ### RollPitchControl ###
 
 P controller.
 
-   𝑏˙𝑥𝑐=𝑘𝑝(𝑏𝑥𝑐−𝑏𝑥𝑎)
-   𝑏˙𝑦𝑐=𝑘𝑝(𝑏𝑦𝑐−𝑏𝑦𝑎)
-   𝑏𝑥𝑎=𝑅13  and  𝑏𝑦𝑎=𝑅23 
-   
-   [p
+![image](https://user-images.githubusercontent.com/88915769/133294320-38bd8573-0a45-4523-8fb3-eab2b9ba6947.png)
 
 
 
