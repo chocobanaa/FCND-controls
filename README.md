@@ -15,15 +15,19 @@ A P controller is used
 ### RollPitchControl ###
 
 P controller.
-
 ![image](https://user-images.githubusercontent.com/88915769/133294320-38bd8573-0a45-4523-8fb3-eab2b9ba6947.png)
 
+### LateralPositionControl() ###
 
+A pd controller 
+![image](https://user-images.githubusercontent.com/88915769/133297638-97affac0-13e3-44ea-989f-2d1f79a227b8.png)
+y direction equations also has same form
+
+### AltitudeControl() ###
 
 ### YawContro() ###
  A P controller is used  
  => 𝑟𝑐=𝑘𝑝(𝜓𝑡−𝜓𝑎)
-
 
 # The C++ Project Readme #
 
