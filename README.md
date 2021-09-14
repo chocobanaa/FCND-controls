@@ -1,13 +1,17 @@
 # Implemented Controller
 
-### Func GenerateMotorCommands ### 
- using following equation
+### GenerateMotorCommands() ### 
+ using following equation, 
 
 	 [1   1   1  -1   [f1    [collectiveThrustCmd
 	  1  -1   1   1    f2     momentCmd.x / armLength
 	  1   1  -1   1  * f3  =  momentCmd.y / armLength
 	  1  -1  -1  -1]   f4     momentCmd.z / kappa]  
 
+### BodyRateControl() ### 
+
+### YawContro() ###
+𝑟𝑐=𝑘𝑝(𝜓𝑡−𝜓𝑎)
 
 
 # The C++ Project Readme #
