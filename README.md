@@ -9,8 +9,8 @@
 	  1  -1  -1  -1]   f4     momentCmd.z / k]  
 
 ### BodyRateControl() ### 
-A P controller is used 
-=> l * 𝑘𝑝 * 𝑝_error
+A P controller is used  
+=> l * 𝑘𝑝 * 𝑝_error  
  (※ l =  mass moment of inertia / second moment of inertia)
  
 ### RollPitchControl ###
@@ -26,7 +26,7 @@ P controller.
 
 
 ### YawContro() ###
- A P controller is used 
+ A P controller is used  
  => 𝑟𝑐=𝑘𝑝(𝜓𝑡−𝜓𝑎)
 
 
