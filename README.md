@@ -22,9 +22,7 @@ P controller. using equations
 A pd controller  
 
 ![image](https://user-images.githubusercontent.com/88915769/133297638-97affac0-13e3-44ea-989f-2d1f79a227b8.png)  
-
-
-y direction equations also has same form
+ (y direction equations also has same form)
 
 ### AltitudeControl() ###
 
