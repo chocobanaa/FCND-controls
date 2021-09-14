@@ -22,13 +22,23 @@ P controller. Equations :
 A pd controller  
 
 ![image](https://user-images.githubusercontent.com/88915769/133297638-97affac0-13e3-44ea-989f-2d1f79a227b8.png)  
- (y direction equations also has same form)
+ (y  equations have same form)
 
 ### AltitudeControl() ###
+PID controller
+![image](https://user-images.githubusercontent.com/88915769/133299519-67055d26-42d3-4332-9680-825a50b8b4ac.png)
+
 
 ### YawContro() ###
  A P controller is used  
  => 𝑟𝑐=𝑘𝑝(𝜓𝑡−𝜓𝑎)
+
+### Flight Evaluation 
+all scenario meet criteria
+
+Scene 4
+![image](https://user-images.githubusercontent.com/88915769/133299941-73e2ae93-6e28-493d-aa7b-f0a3a1cd2a04.png)
+
 
 # The C++ Project Readme #
 
