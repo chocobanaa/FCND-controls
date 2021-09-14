@@ -14,7 +14,7 @@ A P controller is used
  
 ### RollPitchControl ###
 
-P controller. using equations
+P controller. Equations : 
 ![image](https://user-images.githubusercontent.com/88915769/133294320-38bd8573-0a45-4523-8fb3-eab2b9ba6947.png)
 
 ### LateralPositionControl() ###
